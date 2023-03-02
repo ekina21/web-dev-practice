@@ -1,0 +1,64 @@
+ body{
+    background-image: url('https://staticg.sportskeeda.com/editor/2022/10/fd2b9-16652598039107-1920.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ } *{
+    border: 1px solid red ;
+    box-sizing: border-box;
+
+
+ }
+    h1 {
+    text-transform: uppercase;
+
+
+}
+.project{
+    text-transform: lowercase;
+}
+*{
+    color:violet;
+}
+#project1{
+
+}
+.success-message{
+    border: 20px solid hsl(hue, saturation, lightness);
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+
+
+}
+.error-message{
+    color:red;
+    background-color:seashell;
+    border: 2px solid hsl(120,100%,25);
+    font-size:30px;
+    font-weight:bold;
+    text-align:center;
+    height:200px;
+    width: 250px;
+
+}
+.message {
+    color: gray;
+    background-color: seashell;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman';
+
+}
+
+.success-message, .error-message{
+    color:gray;
+    background-color:seashell;
+
+}
+.message.success-message{
+    border:2px solid goldenrod;
+
+}
+header .item{
+    text-decoration: underline;
+}
