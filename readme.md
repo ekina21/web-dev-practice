@@ -4,4 +4,4 @@
 }
 
 ### grouping selectors
-.success-message,.error-message{}
+.success-message,.error-message{ }
