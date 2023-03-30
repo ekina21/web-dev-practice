@@ -39,14 +39,14 @@
        <strong>Try it free 7 days</strong> then $20/mo. thereafter
       </p>
       <div class="card">
-        <form>
-          <div class="input-group">
-            <input text="text" placeholder="First-name">
+        <form name="signupform">
+          <div class="input-group" id="firstnameGroup">
+            <input name="Firstname" type="text" placeholder="Firstname">
             <small class="message"></small>
           </div>
 
-          <div class="input-group">
-            <input text="text" placeholder="Last-name">
+          <div class="input-group" id="lastnameGroup">
+            <input name="Lastname" text="text" placeholder="Lastname">
             <small class="message"></small>
             </div>
 
@@ -60,7 +60,8 @@
                 <small class="message"></small>
                 </div>
 
-                <button class="button">Claim your free trial</button>
+                <button id="submitButton" class="button">
+                  Claim your free trial</button>
 
       </form>
       <p class="privacy-message">
@@ -71,5 +72,6 @@
       </div>
     </div>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
